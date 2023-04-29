@@ -41,3 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Fondo
+    uniqueID: 1112066221
+    locked: 0
+  - name: Escenario
+    uniqueID: 3004449227
+    locked: 0
+  - name: Jugador
+    uniqueID: 3340525861
+    locked: 0
