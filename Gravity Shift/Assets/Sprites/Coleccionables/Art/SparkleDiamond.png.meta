@@ -1,0 +1,1671 @@
+fileFormatVersion: 2
+guid: bd9b499838a01984b95ad690871c9b17
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5843066343659799644
+    second: SparkleDiamond_0
+  - first:
+      213: -8992982744884097037
+    second: SparkleDiamond_1
+  - first:
+      213: -5544190227574295007
+    second: SparkleDiamond_2
+  - first:
+      213: 1292345640718999808
+    second: SparkleDiamond_3
+  - first:
+      213: -972652271372208768
+    second: SparkleDiamond_4
+  - first:
+      213: 2958349558829455197
+    second: SparkleDiamond_5
+  - first:
+      213: 4132631031073209776
+    second: SparkleDiamond_6
+  - first:
+      213: -1763349097092570693
+    second: SparkleDiamond_7
+  - first:
+      213: 5854433159499551613
+    second: SparkleDiamond_8
+  - first:
+      213: 3526874920907455899
+    second: SparkleDiamond_9
+  - first:
+      213: 8778067578774189628
+    second: SparkleDiamond_10
+  - first:
+      213: 6429480974775064084
+    second: SparkleDiamond_11
+  - first:
+      213: -2716444532635094289
+    second: SparkleDiamond_12
+  - first:
+      213: 8881605913474619773
+    second: SparkleDiamond_13
+  - first:
+      213: -6236869640519839241
+    second: SparkleDiamond_14
+  - first:
+      213: -7366044489051312111
+    second: SparkleDiamond_15
+  - first:
+      213: 3849924827418647349
+    second: SparkleDiamond_16
+  - first:
+      213: 5619296919066187341
+    second: SparkleDiamond_17
+  - first:
+      213: -5777067511454451732
+    second: SparkleDiamond_18
+  - first:
+      213: 7943844397309498351
+    second: SparkleDiamond_19
+  - first:
+      213: 6614245583148263423
+    second: SparkleDiamond_20
+  - first:
+      213: 2670748085282167394
+    second: SparkleDiamond_21
+  - first:
+      213: 618306565021044207
+    second: SparkleDiamond_22
+  - first:
+      213: 4609881913898026780
+    second: SparkleDiamond_23
+  - first:
+      213: 1338864192948145690
+    second: SparkleDiamond_24
+  - first:
+      213: -2296028970161485721
+    second: SparkleDiamond_25
+  - first:
+      213: -7960869602595287040
+    second: SparkleDiamond_26
+  - first:
+      213: 8539154605168273060
+    second: SparkleDiamond_27
+  - first:
+      213: 4811165023588456826
+    second: SparkleDiamond_28
+  - first:
+      213: -3398998809163650390
+    second: SparkleDiamond_29
+  - first:
+      213: -4761633469417550305
+    second: SparkleDiamond_30
+  - first:
+      213: 8219046430276051820
+    second: SparkleDiamond_31
+  - first:
+      213: 5206794708853833508
+    second: SparkleDiamond_32
+  - first:
+      213: 6468496778908503106
+    second: SparkleDiamond_33
+  - first:
+      213: -9205531011835541791
+    second: SparkleDiamond_34
+  - first:
+      213: -7740803332279956778
+    second: SparkleDiamond_35
+  - first:
+      213: -1001681356240538466
+    second: SparkleDiamond_36
+  - first:
+      213: 3166561292940905479
+    second: SparkleDiamond_37
+  - first:
+      213: 8020201160986938686
+    second: SparkleDiamond_38
+  - first:
+      213: -543053574411089198
+    second: SparkleDiamond_39
+  - first:
+      213: -5248115709425172937
+    second: SparkleDiamond_40
+  - first:
+      213: 1965407124501277710
+    second: SparkleDiamond_41
+  - first:
+      213: -7758143260675354524
+    second: SparkleDiamond_42
+  - first:
+      213: 1882396463604326051
+    second: SparkleDiamond_43
+  - first:
+      213: -8089084984325094198
+    second: SparkleDiamond_44
+  - first:
+      213: -514582274968928184
+    second: SparkleDiamond_45
+  - first:
+      213: 662400722754481898
+    second: SparkleDiamond_46
+  - first:
+      213: 517139538964653166
+    second: SparkleDiamond_47
+  - first:
+      213: -1779692234335690787
+    second: SparkleDiamond_48
+  - first:
+      213: 3908938871077438211
+    second: SparkleDiamond_49
+  - first:
+      213: -8798719800504885153
+    second: SparkleDiamond_50
+  - first:
+      213: -2979614048075517976
+    second: SparkleDiamond_51
+  - first:
+      213: 985476032358437851
+    second: SparkleDiamond_52
+  - first:
+      213: -1573461140069518730
+    second: SparkleDiamond_53
+  - first:
+      213: 7639516963895187649
+    second: SparkleDiamond_54
+  - first:
+      213: 7289362435344328964
+    second: SparkleDiamond_55
+  - first:
+      213: -3959646559643121069
+    second: SparkleDiamond_56
+  - first:
+      213: -4093997545244765950
+    second: SparkleDiamond_57
+  - first:
+      213: 3572429188280638991
+    second: SparkleDiamond_58
+  - first:
+      213: -2382091587341486764
+    second: SparkleDiamond_59
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SparkleDiamond_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4928
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5402e4b1edb61150800000000000000
+      internalID: 5843066343659799644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_1
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 4928
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff47f327d1823380800000000000000
+      internalID: -8992982744884097037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_2
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 4928
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126fd36cc541f03b0800000000000000
+      internalID: -5544190227574295007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_3
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 4928
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001a41a53855fe110800000000000000
+      internalID: 1292345640718999808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_4
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 4928
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 085f1ea99e17082f0800000000000000
+      internalID: -972652271372208768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4480
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d57967fef3b2e0920800000000000000
+      internalID: 2958349558829455197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_6
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 4480
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bdffd2f60e0a5930800000000000000
+      internalID: 4132631031073209776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 4480
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1aaccb6535787e0800000000000000
+      internalID: -1763349097092570693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_8
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 4480
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d731d31c0ff1f3150800000000000000
+      internalID: 5854433159499551613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_9
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 4480
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d3cebed0af1f030800000000000000
+      internalID: 3526874920907455899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4032
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c36753764f5f1d970800000000000000
+      internalID: 8778067578774189628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 4032
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4169997b1ea1a3950800000000000000
+      internalID: 6429480974775064084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_12
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 4032
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2bb3407104d4ad0800000000000000
+      internalID: -2716444532635094289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_13
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 4032
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d79d9a3858dc14b70800000000000000
+      internalID: 8881605913474619773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_14
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 4032
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f195663b103279a0800000000000000
+      internalID: -6236869640519839241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3584
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1107f5e609d86c990800000000000000
+      internalID: -7366044489051312111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_16
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3584
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bde369b3ead6530800000000000000
+      internalID: 3849924827418647349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_17
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 3584
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46136c86c0cbfd40800000000000000
+      internalID: 5619296919066187341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_18
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 3584
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7be40e4bbb3dfa0800000000000000
+      internalID: -5777067511454451732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_19
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 3584
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe31c9c14643e3e60800000000000000
+      internalID: 7943844397309498351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3136
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7afb860558acb50800000000000000
+      internalID: 6614245583148263423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_21
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 3136
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a5ccbbb37601520800000000000000
+      internalID: 2670748085282167394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_22
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 3136
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed0f528b8aa49800800000000000000
+      internalID: 618306565021044207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_23
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 3136
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17c36e2d2799ff30800000000000000
+      internalID: 4609881913898026780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_24
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 3136
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e0a2fc3e9949210800000000000000
+      internalID: 1338864192948145690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2688
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 768c48701ddd220e0800000000000000
+      internalID: -2296028970161485721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_26
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2688
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0005a12664f458190800000000000000
+      internalID: -7960869602595287040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_27
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 2688
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6223bfedb218670800000000000000
+      internalID: 8539154605168273060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_28
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 2688
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7916ca2911b4c240800000000000000
+      internalID: 4811165023588456826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_29
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 2688
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa23db779454d0d0800000000000000
+      internalID: -3398998809163650390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2240
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1e81c876974bedb0800000000000000
+      internalID: -4761633469417550305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_31
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2240
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63eb059e2bef0270800000000000000
+      internalID: 8219046430276051820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_32
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 2240
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fbd9f6330424840800000000000000
+      internalID: 5206794708853833508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_33
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 2240
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c89918c87b4c950800000000000000
+      internalID: 6468496778908503106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_34
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 2240
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e643b651526f3080800000000000000
+      internalID: -9205531011835541791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da0b4fb164239490800000000000000
+      internalID: -7740803332279956778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_36
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1792
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94b6271d105912f0800000000000000
+      internalID: -1001681356240538466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_37
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1792
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c8e3108b2e1fb20800000000000000
+      internalID: 3166561292940905479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_38
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1792
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d4dcb867a7d4f60800000000000000
+      internalID: 8020201160986938686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_39
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1792
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da883bb6afa678f0800000000000000
+      internalID: -543053574411089198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1344
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73eb0976192fa27b0800000000000000
+      internalID: -5248115709425172937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_41
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1344
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0cabe6dd57864b10800000000000000
+      internalID: 1965407124501277710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_42
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1344
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460dade0fc9855490800000000000000
+      internalID: -7758143260675354524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_43
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1344
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae569b3c9d9f1a10800000000000000
+      internalID: 1882396463604326051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_44
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1344
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac44b57801ccdbf80800000000000000
+      internalID: -8089084984325094198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840c3c4b526dbd8f0800000000000000
+      internalID: -514582274968928184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_46
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 896
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee2eb2a2f1513900800000000000000
+      internalID: 662400722754481898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_47
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e642c47bbaf3d2700800000000000000
+      internalID: 517139538964653166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_48
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 896
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf56e297534d47e0800000000000000
+      internalID: -1779692234335690787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_49
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303894b51375f3630800000000000000
+      internalID: 3908938871077438211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50e5b485faa4e580800000000000000
+      internalID: -8798719800504885153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_51
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8efe1b85fc846a6d0800000000000000
+      internalID: -2979614048075517976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_52
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 448
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3d26bea3d1dad00800000000000000
+      internalID: 985476032358437851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_53
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 448
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672764efd61f92ae0800000000000000
+      internalID: -1573461140069518730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_54
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 448
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c81b88e334050a60800000000000000
+      internalID: 7639516963895187649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40966c5a384092560800000000000000
+      internalID: 7289362435344328964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_56
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35acf50ee628c09c0800000000000000
+      internalID: -3959646559643121069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_57
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2015d5c6ce23f27c0800000000000000
+      internalID: -4093997545244765950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_58
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0e54b05b61d39130800000000000000
+      internalID: 3572429188280638991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SparkleDiamond_59
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455701a725c11fed0800000000000000
+      internalID: -2382091587341486764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SparkleDiamond_0: 5843066343659799644
+      SparkleDiamond_1: -8992982744884097037
+      SparkleDiamond_10: 8778067578774189628
+      SparkleDiamond_11: 6429480974775064084
+      SparkleDiamond_12: -2716444532635094289
+      SparkleDiamond_13: 8881605913474619773
+      SparkleDiamond_14: -6236869640519839241
+      SparkleDiamond_15: -7366044489051312111
+      SparkleDiamond_16: 3849924827418647349
+      SparkleDiamond_17: 5619296919066187341
+      SparkleDiamond_18: -5777067511454451732
+      SparkleDiamond_19: 7943844397309498351
+      SparkleDiamond_2: -5544190227574295007
+      SparkleDiamond_20: 6614245583148263423
+      SparkleDiamond_21: 2670748085282167394
+      SparkleDiamond_22: 618306565021044207
+      SparkleDiamond_23: 4609881913898026780
+      SparkleDiamond_24: 1338864192948145690
+      SparkleDiamond_25: -2296028970161485721
+      SparkleDiamond_26: -7960869602595287040
+      SparkleDiamond_27: 8539154605168273060
+      SparkleDiamond_28: 4811165023588456826
+      SparkleDiamond_29: -3398998809163650390
+      SparkleDiamond_3: 1292345640718999808
+      SparkleDiamond_30: -4761633469417550305
+      SparkleDiamond_31: 8219046430276051820
+      SparkleDiamond_32: 5206794708853833508
+      SparkleDiamond_33: 6468496778908503106
+      SparkleDiamond_34: -9205531011835541791
+      SparkleDiamond_35: -7740803332279956778
+      SparkleDiamond_36: -1001681356240538466
+      SparkleDiamond_37: 3166561292940905479
+      SparkleDiamond_38: 8020201160986938686
+      SparkleDiamond_39: -543053574411089198
+      SparkleDiamond_4: -972652271372208768
+      SparkleDiamond_40: -5248115709425172937
+      SparkleDiamond_41: 1965407124501277710
+      SparkleDiamond_42: -7758143260675354524
+      SparkleDiamond_43: 1882396463604326051
+      SparkleDiamond_44: -8089084984325094198
+      SparkleDiamond_45: -514582274968928184
+      SparkleDiamond_46: 662400722754481898
+      SparkleDiamond_47: 517139538964653166
+      SparkleDiamond_48: -1779692234335690787
+      SparkleDiamond_49: 3908938871077438211
+      SparkleDiamond_5: 2958349558829455197
+      SparkleDiamond_50: -8798719800504885153
+      SparkleDiamond_51: -2979614048075517976
+      SparkleDiamond_52: 985476032358437851
+      SparkleDiamond_53: -1573461140069518730
+      SparkleDiamond_54: 7639516963895187649
+      SparkleDiamond_55: 7289362435344328964
+      SparkleDiamond_56: -3959646559643121069
+      SparkleDiamond_57: -4093997545244765950
+      SparkleDiamond_58: 3572429188280638991
+      SparkleDiamond_59: -2382091587341486764
+      SparkleDiamond_6: 4132631031073209776
+      SparkleDiamond_7: -1763349097092570693
+      SparkleDiamond_8: 5854433159499551613
+      SparkleDiamond_9: 3526874920907455899
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
