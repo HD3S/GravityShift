@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Lava
   layers:
   - Default
   - TransparentFX
@@ -13,8 +14,8 @@ TagManager:
   - UI
   - Jugador
   - Suelo
-  - 
-  - 
+  - Techo
+  - Lava
   - 
   - 
   - 
@@ -49,4 +50,7 @@ TagManager:
     locked: 0
   - name: Jugador
     uniqueID: 3340525861
+    locked: 0
+  - name: Lava
+    uniqueID: 1970588755
     locked: 0

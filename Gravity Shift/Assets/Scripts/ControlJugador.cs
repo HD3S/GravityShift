@@ -11,6 +11,9 @@ public class ControlJugador : MonoBehaviour
     public float potenciaSalto;
     public bool puedeSaltarDoble;
 
+    private Animator anim;
+    private SpriteRenderer sR;
+
     public bool estaEnSuelo;
     public Transform detectorSuelo;
     public LayerMask esSuelo;
@@ -18,7 +21,8 @@ public class ControlJugador : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        anim = GetComponent<Animator>();
+        sR = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -48,5 +52,17 @@ public class ControlJugador : MonoBehaviour
                 }
             }
         }
+
+        if(rB.velocity.x < 0)
+        {
+            sR.flipX = true;
+        }else if (rB.velocity.x > 0) 
+        {
+            sR.flipX = false; 
+        }
+
+        anim.SetFloat("Movimiento", Mathf.Abs(rB.velocity.x));
+        anim.SetBool("estaEnSuelo", estaEnSuelo);
+        anim.SetBool("saltoDoble", puedeSaltarDoble);
     }
 }
