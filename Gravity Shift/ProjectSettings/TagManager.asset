@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Lava
+  - Green
+  - Blue
+  - Red
   layers:
   - Default
   - TransparentFX
@@ -53,4 +56,7 @@ TagManager:
     locked: 0
   - name: Lava
     uniqueID: 1970588755
+    locked: 0
+  - name: HUD
+    uniqueID: 1037138785
     locked: 0
