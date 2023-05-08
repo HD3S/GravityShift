@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ControlJugador : MonoBehaviour
 {
+    public static ControlJugador instance;
+
     public float velocidadMovimiento;
 
     public Rigidbody2D rB;
@@ -11,13 +13,18 @@ public class ControlJugador : MonoBehaviour
     public float potenciaSalto;
     public bool puedeSaltarDoble;
 
-    private Animator anim;
-    private SpriteRenderer sR;
-
     public bool estaEnSuelo;
     public Transform detectorSuelo;
     public LayerMask esSuelo;
 
+    public Animator anim;
+    private SpriteRenderer sR;
+
+
+    private void Awake()
+    {
+        instance = this;
+    }
     // Start is called before the first frame update
     void Start()
     {

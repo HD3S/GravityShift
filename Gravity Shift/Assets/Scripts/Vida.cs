@@ -7,19 +7,16 @@ public class Vida : MonoBehaviour
 {
     public Image[] puntosVida;
 
-    public float vida, vidaMaxima = 100;
+    private int vida;
 
     private void Start()
     {
-        vida = vidaMaxima;
+        vida = ControlVidaJugador.instance.vidaActual;
     }
 
     private void Update()
     {
-        if (vida > vidaMaxima)
-        {
-             vida = vidaMaxima;
-        }
+        vida = ControlVidaJugador.instance.vidaActual;
         RellenadorVida();
     }
 
@@ -31,23 +28,16 @@ public class Vida : MonoBehaviour
         }
     }
 
-    bool MostrarPuntosVida(float ivida, int pointnumber)
+    bool MostrarPuntosVida(int ivida, int pointnumber)
     {
         return ((pointnumber * 10) >= ivida);
     }
 
-    public void Dagnar(float puntosDagno)
-    { 
-        if(vida > 0)
-        {
-            vida -= puntosDagno;
-        }
-    }
-    public void Curar(float puntosCura)
+    /*public void Curar(int puntosCura)
     {
         if(vida < vidaMaxima)
         {
             vida += puntosCura;
         }
-    }
+    }*/
 }
