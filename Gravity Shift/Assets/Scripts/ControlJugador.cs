@@ -8,8 +8,6 @@ public class ControlJugador : MonoBehaviour
 
     public float velocidadMovimiento;
 
-    public Rigidbody2D rB;
-
     public float potenciaSalto;
     public bool puedeSaltarDoble;
 
@@ -18,6 +16,7 @@ public class ControlJugador : MonoBehaviour
     public LayerMask esSuelo;
 
     public Animator anim;
+    public Rigidbody2D rB;
     private SpriteRenderer sR;
 
 

@@ -31,7 +31,13 @@ public class ControlVidaJugador : MonoBehaviour
     void Update()
     {
         if (vidaActual > vidaMax)
+        {
             vidaActual = vidaMax;
+        }
+        if(vidaActual <= 0)
+        {
+            StartCoroutine(Reiniciar(3.5f));
+        }
 
         if(contadorInvencibilidad > 0)
             contadorInvencibilidad -= Time.deltaTime;
@@ -41,7 +47,11 @@ public class ControlVidaJugador : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Lava")
-            ManejadorDano("lava");
+            ManejadorDano("Lava");
+        else if(collision.gameObject.tag == "Enemigo")
+            ManejadorDano("Enemigo");
+        
+        
         
         
     }
@@ -49,15 +59,24 @@ public class ControlVidaJugador : MonoBehaviour
     public void ManejadorDano(string itipo)
     {
         int vidaMenos = 0;
-     
+        
         if (contadorInvencibilidad <= 0)
         {
-            if (itipo.Equals("lava"))
-                vidaMenos = 10;
-            ControlJugador.instance.anim.SetTrigger("dano");
-            StartCoroutine(Respawn(0.7f));
-            vidaActual = vidaActual - vidaMenos;
-            
+            switch (itipo)
+            {
+                case "Lava":
+                    ControlJugador.instance.anim.SetTrigger("dano");
+                    vidaMenos = 10;
+                    break;
+                case "Enemigo":
+                    ControlJugador.instance.anim.SetTrigger("dano");
+                    vidaMenos = 20;
+                    break;
+            }
+
+            vidaActual -= vidaMenos;
+
+            StartCoroutine(Respawn(0.8f));
         }
         else
         {
@@ -68,8 +87,19 @@ public class ControlVidaJugador : MonoBehaviour
     IEnumerator Respawn(float itiempo)
     {
         ControlJugador.instance.velocidadMovimiento = 0;
+        ControlJugador.instance.potenciaSalto = 0;
+
         yield return new WaitForSeconds(itiempo);
+
         ControlJugador.instance.velocidadMovimiento = 1.25f;
+        ControlJugador.instance.potenciaSalto = 1;
         ControlJugador.instance.transform.position = posicionInicial;
+    }
+
+    IEnumerator Reiniciar(float itiempo)
+    {
+        yield return new WaitForSeconds(itiempo);
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }
