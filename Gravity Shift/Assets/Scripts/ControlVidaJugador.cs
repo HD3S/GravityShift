@@ -10,8 +10,11 @@ public class ControlVidaJugador : MonoBehaviour
     public int vidaActual;
     private int vidaMax = 100;
 
-    private float tiempoInvencibilidad = 0.75f;
+    private float tiempoInvencibilidad = 1f;
     private float contadorInvencibilidad = 0;
+
+    private Animator anim;
+    private SpriteRenderer sr;
 
     Vector2 posicionInicial;
 
@@ -23,6 +26,8 @@ public class ControlVidaJugador : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        anim = GetComponent<Animator>();
+        sr = GetComponent<SpriteRenderer>();
         vidaActual = vidaMax;
         posicionInicial = ControlJugador.instance.transform.position;
     }
@@ -33,10 +38,6 @@ public class ControlVidaJugador : MonoBehaviour
         if (vidaActual > vidaMax)
         {
             vidaActual = vidaMax;
-        }
-        if(vidaActual <= 0)
-        {
-            StartCoroutine(Reiniciar(3.5f));
         }
 
         if(contadorInvencibilidad > 0)
@@ -51,37 +52,35 @@ public class ControlVidaJugador : MonoBehaviour
         else if(collision.gameObject.tag == "Enemigo")
             ManejadorDano("Enemigo");
         
-        
-        
-        
     }
 
     public void ManejadorDano(string itipo)
     {
         int vidaMenos = 0;
-        
+
+        switch (itipo)
+        {
+            case "Lava":
+                vidaMenos = 10;
+                break;
+            case "Enemigo":
+                vidaMenos = 20;
+                break;
+        }
+
         if (contadorInvencibilidad <= 0)
         {
-            switch (itipo)
-            {
-                case "Lava":
-                    ControlJugador.instance.anim.SetTrigger("dano");
-                    vidaMenos = 10;
-                    break;
-                case "Enemigo":
-                    ControlJugador.instance.anim.SetTrigger("dano");
-                    vidaMenos = 20;
-                    break;
-            }
-
             vidaActual -= vidaMenos;
-
-            StartCoroutine(Respawn(0.8f));
-        }
-        else
-        {
-            contadorInvencibilidad = tiempoInvencibilidad;
-        }
+            if (vidaActual > 0)
+            {
+                anim.SetTrigger("dano");
+                contadorInvencibilidad = tiempoInvencibilidad;
+            }
+            else
+            {
+                StartCoroutine(Reiniciar(0.5f));
+            }
+        }            
     }
 
     IEnumerator Respawn(float itiempo)
