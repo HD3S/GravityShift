@@ -9,6 +9,7 @@ TagManager:
   - Blue
   - Red
   - Enemigo
+  - Bala
   layers:
   - Default
   - TransparentFX

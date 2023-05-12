@@ -17,7 +17,7 @@ public class ControlJugador : MonoBehaviour
 
     public Animator anim;
     public Rigidbody2D rB;
-    private SpriteRenderer sR;
+    public SpriteRenderer sR;
 
 
     private void Awake()
