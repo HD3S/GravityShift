@@ -36,12 +36,21 @@ public class ControlBala : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.tag != "Player" && collision.gameObject.tag != "Bala")
+        if(collision.gameObject.tag != "Player" && collision.gameObject.tag != "Bala" 
+            && collision.gameObject.tag != "Green" 
+            && collision.gameObject.tag != "Blue" 
+            && collision.gameObject.tag != "Red")
         {
             anim.SetTrigger("colision");
-            rb.velocity = new Vector2(0,rb.velocity.y);
+            rb.velocity = new Vector2(0, rb.velocity.y);
 
-            StartCoroutine(EliminarObjeto(0.75f));
+            if (collision.gameObject.tag == "Enemigo")
+            {
+                ControlVidaEnemigo enemigo = collision.GetComponent<ControlVidaEnemigo>();
+                enemigo.ManejadorDano(10);
+            }
+
+            StartCoroutine(EliminarObjeto(0.2f));
         }
     }
 

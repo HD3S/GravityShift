@@ -28,7 +28,15 @@ public class DisparoIkari : MonoBehaviour
 
     private void Disparo()
     {
-        anim.SetTrigger("disparo");
+        if (Mathf.Abs(ControlJugador.instance.rB.velocity.x) > 0)
+        {
+            anim.SetTrigger("disparoMov");
+        }
+        else
+        {
+            anim.SetTrigger("disparo");
+        }
+        
         Instantiate(balaIkari,posicionDisparo.position, Quaternion.identity);
     }
 }
