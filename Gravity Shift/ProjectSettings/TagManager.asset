@@ -11,6 +11,7 @@ TagManager:
   - Enemigo
   - Bala
   - Coleccionable
+  - White
   layers:
   - Default
   - TransparentFX
@@ -51,11 +52,17 @@ TagManager:
   - name: Fondo
     uniqueID: 1112066221
     locked: 0
-  - name: Escenario
-    uniqueID: 3004449227
+  - name: DecoradoPosterior
+    uniqueID: 2794426575
     locked: 0
   - name: Jugador
     uniqueID: 3340525861
+    locked: 0
+  - name: Decorado Anterior
+    uniqueID: 2423439165
+    locked: 0
+  - name: Escenario
+    uniqueID: 3004449227
     locked: 0
   - name: Lava
     uniqueID: 1970588755

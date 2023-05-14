@@ -7,6 +7,7 @@ public class Moneda : MonoBehaviour
     public int Green = 1;
     public int Blue = 5;
     public int Red = 10;
+    public int White = 100;
     public GameManager gameManager;
     // Start is called before the first frame update
     void Start()
@@ -37,6 +38,11 @@ public class Moneda : MonoBehaviour
             if (this.CompareTag("Red"))
             {
                 gameManager.SumarPuntos(Red);
+                Destroy(this.gameObject);
+            }
+            if (this.CompareTag("White"))
+            {
+                gameManager.SumarPuntos(White);
                 Destroy(this.gameObject);
             }
         }
