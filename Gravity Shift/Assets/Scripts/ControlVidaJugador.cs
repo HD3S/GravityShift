@@ -16,7 +16,6 @@ public class ControlVidaJugador : MonoBehaviour
     private Animator anim;
     private SpriteRenderer sr;
 
-    Vector2 posicionInicial;
 
 
     private void Awake()
@@ -29,7 +28,6 @@ public class ControlVidaJugador : MonoBehaviour
         anim = GetComponent<Animator>();
         sr = GetComponent<SpriteRenderer>();
         vidaActual = vidaMax;
-        posicionInicial = ControlJugador.instance.transform.position;
     }
 
     // Update is called once per frame
@@ -41,8 +39,8 @@ public class ControlVidaJugador : MonoBehaviour
         }
 
         if(contadorInvencibilidad > 0)
-            contadorInvencibilidad -= Time.deltaTime;
-        
+            contadorInvencibilidad -= Time.deltaTime; 
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -61,7 +59,7 @@ public class ControlVidaJugador : MonoBehaviour
         switch (itipo)
         {
             case "Lava":
-                vidaMenos = 10;
+                vidaMenos = 100;
                 break;
             case "Enemigo":
                 vidaMenos = 20;
@@ -75,30 +73,13 @@ public class ControlVidaJugador : MonoBehaviour
             {
                 anim.SetTrigger("dano");
                 contadorInvencibilidad = tiempoInvencibilidad;
+
             }
             else
             {
-                StartCoroutine(Reiniciar(0.5f));
+                GameManager.instance.RespawnearJugador();
+
             }
-        }            
-    }
-
-    IEnumerator Respawn(float itiempo)
-    {
-        ControlJugador.instance.velocidadMovimiento = 0;
-        ControlJugador.instance.potenciaSalto = 0;
-
-        yield return new WaitForSeconds(itiempo);
-
-        ControlJugador.instance.velocidadMovimiento = 1.25f;
-        ControlJugador.instance.potenciaSalto = 1;
-        ControlJugador.instance.transform.position = posicionInicial;
-    }
-
-    IEnumerator Reiniciar(float itiempo)
-    {
-        yield return new WaitForSeconds(itiempo);
-
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        } 
     }
 }
