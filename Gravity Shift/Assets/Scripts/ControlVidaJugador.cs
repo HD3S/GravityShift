@@ -77,6 +77,7 @@ public class ControlVidaJugador : MonoBehaviour
             }
             else
             {
+                vidaActual = vidaMax;
                 GameManager.instance.RespawnearJugador();
 
             }
