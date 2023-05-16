@@ -21,6 +21,7 @@ public class ControlVidaEnemigo : MonoBehaviour
         if(vida <= 0)
         {
             Destroy(this.gameObject);
+
         }
     }
 
