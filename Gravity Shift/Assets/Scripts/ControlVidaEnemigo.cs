@@ -7,11 +7,16 @@ public class ControlVidaEnemigo : MonoBehaviour
     public static ControlVidaEnemigo instance;
 
     public float vida;
+    public int tipoEnemigo;
 
+
+    private void Awake()
+    {
+        instance = this;
+    }
     // Start is called before the first frame update
     void Start()
     {
-        instance = this;
         vida = 100;
     }
 
@@ -20,8 +25,7 @@ public class ControlVidaEnemigo : MonoBehaviour
     {
         if(vida <= 0)
         {
-            Destroy(this.gameObject);
-
+            ManejadorDano(0);
         }
     }
 
@@ -29,7 +33,20 @@ public class ControlVidaEnemigo : MonoBehaviour
     {
         if(vida > 0)
         {
-            vida -= dano;
+            switch (tipoEnemigo)
+            {
+                case 0:
+                    vida -= dano;
+                    break;
+                case 1:
+                    vida -= dano;
+                    //add animation
+                    break;
+                case 2:
+                    vida -= dano;
+                    //add animation
+                    break;
+            }
         }
         else
         {

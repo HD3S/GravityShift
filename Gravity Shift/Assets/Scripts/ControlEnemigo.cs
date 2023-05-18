@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.XR;
 
 public class ControlEnemigo : MonoBehaviour
 {
     public float velocidadMovimiento;
+    //una variable para diferenciar los 3 diferentes enemigos que tenemos
+    //para cambiar el tipo de danio que hacen
+    public int tipoEnemigo;
 
     public GameObject limiteIzq;
     public GameObject limiteDcha;

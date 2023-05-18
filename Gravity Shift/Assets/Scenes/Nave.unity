@@ -495,7 +495,7 @@ GameObject:
   m_Layer: 0
   m_Name: limiteIzq
   m_TagString: Untagged
-  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -55284,6 +55284,7 @@ GameObject:
   - component: {fileID: 2133321377}
   - component: {fileID: 2133321375}
   - component: {fileID: 2133321374}
+  - component: {fileID: 2133321378}
   - component: {fileID: 2133321373}
   - component: {fileID: 2133321376}
   m_Layer: 0
@@ -55301,8 +55302,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2133321371}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.0866446, y: -0.12137115, z: 0.0057186605}
-  m_LocalScale: {x: 0.8887, y: 0.8887, z: 0.8887}
+  m_LocalPosition: {x: 2.103, y: -0.113, z: 0.0057186605}
+  m_LocalScale: {x: 1.064485, y: 1.064485, z: 1.064485}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1437162014}
@@ -55347,6 +55348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadMovimiento: 0.3
+  tipoEnemigo: 2
   limiteIzq: {fileID: 87815452}
   limiteDcha: {fileID: 1797233309}
   tiempoMovimiento: 5
@@ -55445,6 +55447,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2133321378
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2133321371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe7cded85c4b0cc42b88ca4ee8405ffb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 0
+  tipoEnemigo: 0
 --- !u!1 &2137320230 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 276524561124902826, guid: ef7efe062c1c0734e85adc0e0b2b2e92, type: 3}

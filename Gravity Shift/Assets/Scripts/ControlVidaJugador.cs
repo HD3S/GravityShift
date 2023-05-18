@@ -46,23 +46,33 @@ public class ControlVidaJugador : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Lava")
-            ManejadorDano("Lava");
+            ManejadorDano("Lava",0);
         else if(collision.gameObject.tag == "Enemigo")
-            ManejadorDano("Enemigo");
+        {
+            ControlEnemigo enemigo = collision.gameObject.GetComponent<ControlEnemigo>();
+
+            ManejadorDano("Enemigo",enemigo.tipoEnemigo);
+        }
+            
         
     }
 
-    public void ManejadorDano(string itipo)
+    public void ManejadorDano(string itag,int itipo)
     {
         int vidaMenos = 0;
 
-        switch (itipo)
+        switch (itag)
         {
             case "Lava":
                 vidaMenos = 100;
                 break;
             case "Enemigo":
-                vidaMenos = 20;
+                if (itipo == 0)
+                    vidaMenos = 10;
+                else if (itipo == 1)
+                    vidaMenos = 20;
+                else
+                    vidaMenos = 100;
                 break;
         }
 
