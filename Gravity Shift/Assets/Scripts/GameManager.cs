@@ -28,11 +28,11 @@ public class GameManager : MonoBehaviour
 
     IEnumerator RespawnCo()
     {
+        yield return new WaitForSeconds(0.5f);
         ControlJugador.instance.gameObject.SetActive(false);
-
         yield return new WaitForSeconds(tiempoParaRespawnear);
-
         ControlJugador.instance.gameObject.SetActive(true);
         ControlJugador.instance.transform.position = ControladorCheck.Instance.puntoRespawn;
+        
     }
 }

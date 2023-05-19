@@ -79,6 +79,7 @@ public class ControlVidaJugador : MonoBehaviour
         if (contadorInvencibilidad <= 0)
         {
             vidaActual -= vidaMenos;
+            Vida.instance.RellenadorVida();
             if (vidaActual > 0)
             {
                 anim.SetTrigger("dano");
@@ -87,9 +88,8 @@ public class ControlVidaJugador : MonoBehaviour
             }
             else
             {
-                vidaActual = vidaMax;
                 GameManager.instance.RespawnearJugador();
-
+                vidaActual = vidaMax;
             }
         } 
     }

@@ -5,9 +5,16 @@ using UnityEngine.UI;
 
 public class Vida : MonoBehaviour
 {
+    public static Vida instance;
+
     public Image[] puntosVida;
 
     private int vida;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     private void Start()
     {
@@ -20,7 +27,7 @@ public class Vida : MonoBehaviour
         RellenadorVida();
     }
 
-    void RellenadorVida() 
+    public void RellenadorVida() 
     {
         for(int i = 0;  i < puntosVida.Length; i++)
         {

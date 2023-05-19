@@ -40,7 +40,11 @@ public class ControlEnemigo : MonoBehaviour
     {
         if (contadorMovimiento > 0)
         {
-            anim.SetBool("estaCaminando", true);
+            if(tipoEnemigo == 0 ||  tipoEnemigo == 2)
+            {
+                anim.SetBool("estaCaminando", true);
+            }
+            
             contadorMovimiento -= Time.deltaTime;
 
             if (movimientoDcha)
@@ -69,7 +73,10 @@ public class ControlEnemigo : MonoBehaviour
         }
         else if(contadorEspera > 0)
         {
-            anim.SetBool("estaCaminando", false);
+            if (tipoEnemigo == 0 || tipoEnemigo == 2)
+            {
+                anim.SetBool("estaCaminando", true);
+            }
             contadorEspera -= Time.deltaTime;
             rb.velocity = new Vector2(0f, transform.position.y);
 

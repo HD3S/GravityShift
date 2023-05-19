@@ -7,7 +7,12 @@ public class ControlVidaEnemigo : MonoBehaviour
     public static ControlVidaEnemigo instance;
 
     public float vida;
+    //una variable para diferenciar los 3 diferentes enemigos que tenemos
+    //para cambiar el tipo de danio que hacen
     public int tipoEnemigo;
+
+    private Animator anim;
+    private Rigidbody2D rb;
 
 
     private void Awake()
@@ -18,6 +23,8 @@ public class ControlVidaEnemigo : MonoBehaviour
     void Start()
     {
         vida = 100;
+        anim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -43,15 +50,32 @@ public class ControlVidaEnemigo : MonoBehaviour
                     //add animation
                     break;
                 case 2:
-                    vida -= dano;
-                    //add animation
+                    anim.SetTrigger("explosion");
+                    StartCoroutine(Eliminarobjeto(2f));
                     break;
             }
         }
         else
         {
-            Destroy(this.gameObject);
+            StartCoroutine(Eliminarobjeto(0.5f));
         }
-        
+
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            rb.velocity = new Vector2(0, rb.velocity.y);
+            ControlJugador.instance.rB.velocity = new Vector2(0, ControlJugador.instance.rB.velocity.y);
+            anim.SetTrigger("explosion");
+            StartCoroutine(Eliminarobjeto(2f));
+        }
+    }
+
+    IEnumerator Eliminarobjeto(float itiempo)
+    {
+        yield return new WaitForSeconds(itiempo);
+        Destroy(this.gameObject);
     }
 }
