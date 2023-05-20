@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 954339639135111708}
   m_Layer: 0
   m_Name: alien
-  m_TagString: Untagged
+  m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50,7 +50,7 @@ GameObject:
   - component: {fileID: 1718628317400798791}
   - component: {fileID: 1718628317400798790}
   m_Layer: 0
-  m_Name: alien
+  m_Name: alien2
   m_TagString: Enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -157,8 +157,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadMovimiento: 0.5
+  tipoEnemigo: 1
   limiteIzq: {fileID: 1718628317841731567}
   limiteDcha: {fileID: 1718628317558745011}
+  rb: {fileID: 0}
   tiempoMovimiento: 3
   tiempoEspera: 2
 --- !u!114 &4557882330466940169
@@ -231,7 +233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1718628317558745012}
   m_Layer: 0
-  m_Name: limiteDcha
+  m_Name: limiteDcha2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -245,7 +247,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718628317558745011}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.193, y: 0.01051566, z: -0.44177315}
+  m_LocalPosition: {x: 1.004, y: 0.01051566, z: -0.44177315}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -262,7 +264,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1718628317841731552}
   m_Layer: 0
-  m_Name: limiteIzq
+  m_Name: limiteIzq2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -276,7 +278,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1718628317841731567}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.13368057, y: 0.01051566, z: -0.44177315}
+  m_LocalPosition: {x: 0.052, y: 0.01051566, z: -0.44177315}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

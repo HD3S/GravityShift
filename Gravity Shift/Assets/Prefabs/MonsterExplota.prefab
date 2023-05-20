@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3181439360537260233}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.77, y: -0.10337114, z: -0.0016560555}
+  m_LocalPosition: {x: 1.025, y: -0.10337114, z: -0.0016560555}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -89,7 +89,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3181439361914806088}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.227, y: -0.10337114, z: -0.0016560555}
+  m_LocalPosition: {x: 3.006, y: -0.10337114, z: -0.0016560555}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -220,9 +220,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadMovimiento: 0.5
-  tipoEnemigo: 2
+  tipoEnemigo: 3
   limiteIzq: {fileID: 3181439360537260233}
   limiteDcha: {fileID: 3181439361914806088}
+  rb: {fileID: 0}
   tiempoMovimiento: 5
   tiempoEspera: 0.1
 --- !u!114 &3181439362249843575
@@ -238,7 +239,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 0
-  tipoEnemigo: 2
 --- !u!61 &3181439362249843528
 BoxCollider2D:
   m_ObjectHideFlags: 0

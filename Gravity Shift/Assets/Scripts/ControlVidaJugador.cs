@@ -72,7 +72,7 @@ public class ControlVidaJugador : MonoBehaviour
                 else if (itipo == 1)
                     vidaMenos = 20;
                 else
-                    vidaMenos = 100;
+                    vidaMenos = 80;
                 break;
         }
 

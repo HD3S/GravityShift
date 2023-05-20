@@ -6,6 +6,8 @@ using UnityEngine.XR;
 
 public class ControlEnemigo : MonoBehaviour
 {
+    public static ControlEnemigo instance;
+
     public float velocidadMovimiento;
     //una variable para diferenciar los 3 diferentes enemigos que tenemos
     //para cambiar el tipo de danio que hacen
@@ -16,12 +18,17 @@ public class ControlEnemigo : MonoBehaviour
 
     private bool movimientoDcha;
 
-    private Rigidbody2D rb;
+    public Rigidbody2D rb;
     private Animator anim;
     private SpriteRenderer sr;
 
     public float tiempoMovimiento, tiempoEspera;
     private float contadorMovimiento, contadorEspera;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     // Start is called before the first frame update
     void Start()

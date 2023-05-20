@@ -7,9 +7,8 @@ public class ControlVidaEnemigo : MonoBehaviour
     public static ControlVidaEnemigo instance;
 
     public float vida;
-    //una variable para diferenciar los 3 diferentes enemigos que tenemos
-    //para cambiar el tipo de danio que hacen
-    public int tipoEnemigo;
+
+    ControlEnemigo enemigo;
 
     private Animator anim;
     private Rigidbody2D rb;
@@ -25,33 +24,31 @@ public class ControlVidaEnemigo : MonoBehaviour
         vida = 100;
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        enemigo = this.GetComponent<ControlEnemigo>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(vida <= 0)
-        {
-            ManejadorDano(0);
-        }
     }
 
     public void ManejadorDano(float dano)
     {
         if(vida > 0)
         {
-            switch (tipoEnemigo)
+            switch (enemigo.tipoEnemigo)
             {
-                case 0:
+                case 1:
                     vida -= dano;
                     break;
-                case 1:
+                case 2:
                     vida -= dano;
                     //add animation
                     break;
-                case 2:
+                case 3:
+                    enemigo.velocidadMovimiento = 0;
                     anim.SetTrigger("explosion");
-                    StartCoroutine(Eliminarobjeto(2f));
+                    StartCoroutine(Eliminarobjeto(2.5f));
                     break;
             }
         }
@@ -66,10 +63,10 @@ public class ControlVidaEnemigo : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            rb.velocity = new Vector2(0, rb.velocity.y);
-            ControlJugador.instance.rB.velocity = new Vector2(0, ControlJugador.instance.rB.velocity.y);
+            
+            enemigo.velocidadMovimiento = 0;
             anim.SetTrigger("explosion");
-            StartCoroutine(Eliminarobjeto(2f));
+            StartCoroutine(Eliminarobjeto(2.5f));
         }
     }
 
