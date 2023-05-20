@@ -39,7 +39,8 @@ public class ControlBala : MonoBehaviour
         if(collision.gameObject.tag != "Player" && collision.gameObject.tag != "Bala" 
             && collision.gameObject.tag != "Green" 
             && collision.gameObject.tag != "Blue" 
-            && collision.gameObject.tag != "Red")
+            && collision.gameObject.tag != "Red"
+            && collision.gameObject.tag != "White")
         {
             anim.SetTrigger("colision");
             rb.velocity = new Vector2(0, rb.velocity.y);

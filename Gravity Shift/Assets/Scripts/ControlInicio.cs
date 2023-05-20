@@ -25,7 +25,11 @@ public class ControlInicio : MonoBehaviour
 
 
         }
-
+        if (Input.GetButtonDown("Cancel"))
+        {
+            //Cierra la aplicacion
+            Application.Quit();
+        }
     }
 
     void CargarEscena()
