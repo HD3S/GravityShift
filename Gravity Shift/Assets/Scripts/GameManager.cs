@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     public float tiempoParaRespawnear;
 
     public static GameManager instance;
-    // Start is called before the first frame update
+
 
     public void Awake()
     {

@@ -8,10 +8,16 @@ public class Checkpoint : MonoBehaviour
 
     public Sprite cpOn, cpOff;
 
+    [SerializeField] private AudioClip sonidoCheckPoint;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("Player"))
         {
+            if(sR.sprite == cpOff)
+            {
+                ControladorSonidos.instance.EjecutarSonido(sonidoCheckPoint);
+            }
             ControladorCheck.Instance.DesactivarCheckpoints();
             sR.sprite = cpOn;
             ControladorCheck.Instance.SetPuntoRespawn(transform.position);

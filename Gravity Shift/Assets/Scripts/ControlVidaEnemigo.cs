@@ -13,6 +13,8 @@ public class ControlVidaEnemigo : MonoBehaviour
     private Animator anim;
     private Rigidbody2D rb;
 
+    [SerializeField] private AudioClip sonidoExplosion;
+
 
     private void Awake()
     {
@@ -48,6 +50,7 @@ public class ControlVidaEnemigo : MonoBehaviour
                 case 3:
                     enemigo.velocidadMovimiento = 0;
                     anim.SetTrigger("explosion");
+                    StartCoroutine(IniciarExplosion(0.8f));//Llama al sonido explosion
                     StartCoroutine(Eliminarobjeto(2.5f));
                     break;
             }
@@ -65,6 +68,7 @@ public class ControlVidaEnemigo : MonoBehaviour
         {
             
             enemigo.velocidadMovimiento = 0;
+            StartCoroutine(IniciarExplosion(0.8f));//Llama al sonido explosion
             anim.SetTrigger("explosion");
             StartCoroutine(Eliminarobjeto(2.5f));
         }
@@ -74,5 +78,11 @@ public class ControlVidaEnemigo : MonoBehaviour
     {
         yield return new WaitForSeconds(itiempo);
         Destroy(this.gameObject);
+    }
+
+    IEnumerator IniciarExplosion(float itiempo)
+    {
+        yield return new WaitForSeconds (itiempo);
+        ControladorSonidos.instance.EjecutarSonido(sonidoExplosion);//Efecto de sonido explosion
     }
 }

@@ -8,6 +8,8 @@ public class DisparoIkari : MonoBehaviour
     public Transform posicionDisparo;
     private Animator anim;
 
+    [SerializeField] private AudioClip sonidoLaserGun;
+
     private float tiempo;
     // Start is called before the first frame update
     void Start()
@@ -23,6 +25,7 @@ public class DisparoIkari : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.P))
         {
             Disparo();
+            ControladorSonidos.instance.EjecutarSonido(sonidoLaserGun);
         }
     }
 

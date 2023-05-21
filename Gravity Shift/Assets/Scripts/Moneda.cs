@@ -9,6 +9,8 @@ public class Moneda : MonoBehaviour
     public int Red = 10;
     public int White = 100;
     public GameManager gameManager;
+
+    [SerializeField] private AudioClip sonidoMoneda;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +27,7 @@ public class Moneda : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            ControladorSonidos.instance.EjecutarSonido(sonidoMoneda);
             if (this.CompareTag("Green"))
             {
                 gameManager.SumarPuntos(Green);

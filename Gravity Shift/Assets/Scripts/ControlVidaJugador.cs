@@ -16,6 +16,10 @@ public class ControlVidaJugador : MonoBehaviour
     private Animator anim;
     private SpriteRenderer sr;
 
+    [SerializeField] private AudioClip sonidoAcido;
+    [SerializeField] private AudioClip sonidoMuerte;
+    [SerializeField] private AudioClip sonidoDaño;
+
 
 
     private void Awake()
@@ -46,9 +50,13 @@ public class ControlVidaJugador : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Lava")
-            ManejadorDano("Lava",0);
+        {
+            ManejadorDano("Lava", 0);
+            ControladorSonidos.instance.EjecutarSonido(sonidoAcido);
+        }
         else if(collision.gameObject.tag == "Enemigo")
         {
+            ControladorSonidos.instance.EjecutarSonido(sonidoDaño);
             ControlEnemigo enemigo = collision.gameObject.GetComponent<ControlEnemigo>();
 
             ManejadorDano("Enemigo",enemigo.tipoEnemigo);
@@ -88,6 +96,7 @@ public class ControlVidaJugador : MonoBehaviour
             }
             else
             {
+                ControladorSonidos.instance.EjecutarSonido(sonidoMuerte);
                 GameManager.instance.RespawnearJugador();
                 vidaActual = vidaMax;
             }

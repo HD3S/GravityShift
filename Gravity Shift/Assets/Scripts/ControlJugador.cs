@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Data.SqlTypes;
 using UnityEngine;
 
 public class ControlJugador : MonoBehaviour
@@ -18,6 +19,7 @@ public class ControlJugador : MonoBehaviour
     public Animator anim;
     public Rigidbody2D rB;
     public SpriteRenderer sR;
+
 
 
     private void Awake()
