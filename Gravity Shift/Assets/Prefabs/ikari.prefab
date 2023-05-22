@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8714360132558082477}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.021, y: 0.087, z: 0}
+  m_LocalPosition: {x: 0.08, y: 0.079, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f12ad325bbb645749894dd031c4bdff6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadMovimiento: 1.25
+  velocidadMovimiento: 1
   potenciaSalto: 1
   puedeSaltarDoble: 0
   estaEnSuelo: 0
@@ -180,6 +180,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaActual: 0
+  sonidoAcido: {fileID: 8300000, guid: 2cda0d0e0e18f7b4ca36cbf26cba11b9, type: 3}
+  sonidoMuerte: {fileID: 8300000, guid: 4728fcddb0912ce409b48f663dbd2d60, type: 3}
+  "sonidoDa\xF1o": {fileID: 8300000, guid: be1ac5144a8724a4b809f4c373ae4f33, type: 3}
 --- !u!114 &8714360132658581363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -194,6 +197,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   balaIkari: {fileID: 4079608318999116780, guid: 67cf941d973328244a18e4674f8f1209, type: 3}
   posicionDisparo: {fileID: 8714360132558082478}
+  sonidoLaserGun: {fileID: 8300000, guid: a27b07649536e424c96b05e2346b29f6, type: 3}
 --- !u!70 &8714360132658581366
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -256,7 +260,7 @@ Transform:
   m_GameObject: {fileID: 8714360133778036730}
   m_LocalRotation: {x: -0, y: -0, z: -0.000050465336, w: 1}
   m_LocalPosition: {x: 0.031, y: -0.21099998, z: 0}
-  m_LocalScale: {x: -100, y: -100, z: -100}
+  m_LocalScale: {x: -10000, y: -10000, z: -10000}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8714360132658581365}

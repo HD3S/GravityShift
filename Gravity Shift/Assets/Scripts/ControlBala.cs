@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class ControlBala : MonoBehaviour
 {
-    private Rigidbody2D rb;
-
     private float fuerza;
+
+    private Rigidbody2D rb;
     private Animator anim;
 
     // Start is called before the first frame update
@@ -49,6 +49,10 @@ public class ControlBala : MonoBehaviour
             {
                 ControlVidaEnemigo enemigo = collision.GetComponent<ControlVidaEnemigo>();
                 enemigo.ManejadorDano(10);
+            }else if(collision.gameObject.tag == "Monster")
+            {
+                ControlVidaMonster monster = collision.GetComponent<ControlVidaMonster>();
+                monster.ManejadorDano(10);
             }
 
             StartCoroutine(EliminarObjeto(0.2f));

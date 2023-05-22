@@ -12,6 +12,7 @@ TagManager:
   - Bala
   - Coleccionable
   - White
+  - Monster
   layers:
   - Default
   - TransparentFX
