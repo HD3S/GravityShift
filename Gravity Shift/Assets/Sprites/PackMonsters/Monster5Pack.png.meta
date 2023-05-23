@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,9 +101,1386 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Monster5Pack_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 644
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37bfa539ffbe5f4ebcd211032934dce
+      internalID: -1743501201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 645
+        width: 48
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20b1c3dd0f47ef1419112ba788e7b57b
+      internalID: 174918111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_3
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 641
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3248ac338400ac242baedecfb7c5e57f
+      internalID: -1360285498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 579
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17e2278f7a9a5de44ba75061d3f3af0e
+      internalID: -1393553133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_5
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 580
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dcbaa22285a9cc47b844ec85f3eb1f9
+      internalID: -697924172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_6
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 580
+        width: 49
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6aa45c253a20834db786a3a68040a5e
+      internalID: 1440515438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_7
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 571
+        width: 48
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31b078f12a492546bd3758a82e5d2e5
+      internalID: -969125314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_8
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 532
+        width: 32
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c22b52b25079041a6f05db7748d341
+      internalID: 1408629156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_9
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 564
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f009b1e0570734eba8ac7eea932a1b
+      internalID: 1811721789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_10
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 570
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0113e701c0285046a8297ec3823d936
+      internalID: 585159701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_11
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 532
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db355fd47b61a18449644a16f5d75122
+      internalID: 518596101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_12
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 533
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a306c62ca8e5ab498c275f941006076
+      internalID: 209098298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_13
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 550
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62317bff25338c48818a0306b5f2679
+      internalID: 21184191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_14
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 534
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328ece8d588275f458f047c3bb2dfd5b
+      internalID: -627669272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_15
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 494
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ebc05b4e71cc04a800c99b8982fbcd
+      internalID: -1792046255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_16
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 499
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014019e3507df3f43a42e81131a6e88f
+      internalID: 1314736729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_17
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 471
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa601fec3306b7848b5c4a873bf58083
+      internalID: -573650117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_18
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 470
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68af678bff1736149a720e1fd6f7dce6
+      internalID: 609308969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_19
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 490
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21058e1ff4f67db418bd7d9d94e6b978
+      internalID: 1708683945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_20
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 489
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b62ff47739e024e94959d6ff114529
+      internalID: -726503636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_21
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 470
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d416d66a5c261d419d7352391de7568
+      internalID: -24859468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_22
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 470
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6788f2f42216446bf628c80b2f8284
+      internalID: -1380451213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_23
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 384
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11a1b22f213c7a642963c4a100704bce
+      internalID: -1325953443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_24
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 384
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 013416a959ae0684d9f993a5c962a0ca
+      internalID: -411476368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_25
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 384
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4962a0212e1e64bb925654034d74d6
+      internalID: -1092376115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_26
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 336
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a745b2a42171b7148a1fa141ed809bba
+      internalID: -1640580426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_27
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 333
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d843780704b52de4da9d2a7ccaba6c4b
+      internalID: 620649524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_28
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 336
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd402085c59df0f44bc686e3bf6a4dae
+      internalID: -1994291344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_29
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 338
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46f67dddfc7dd9408d5a2d59b44eaeb
+      internalID: 1289322480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_30
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 258
+        width: 88
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f82150a1c913434282c7e43e8d70338
+      internalID: -1343741704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_31
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 259
+        width: 77
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dd44c5f1ce9bcc47a51360b4d3e416e
+      internalID: 594906236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_32
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 308
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df60f98e99ea914cadabd804a27e179
+      internalID: -1974673109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_33
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 310
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875a0f03446cb814091fdb768cf7cf10
+      internalID: -1423809340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_34
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 305
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb2976bda4a8db4fa8db3da1feb4527
+      internalID: -1232953237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 272
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa3c687ef761e14294896e235e2a771
+      internalID: -1091038386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_36
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 271
+        width: 52
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd85c053e1a918c489bea2c3e28183cf
+      internalID: 245330451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_37
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 299
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd856c0c9a148c14b959557ed15feea4
+      internalID: 730181647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_38
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 290
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d9a228cd0db494aac8809b5a86550e
+      internalID: -2039655071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_39
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 279
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc0309e3ed762c47bd7d3f99de855b2
+      internalID: 974403953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_40
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 276
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942622e9428fc8b48a6fcb036083e608
+      internalID: -815034633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_41
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 257
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad9ec5dfc24da243b8f5c675390332b
+      internalID: -723790265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_42
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 256
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09e47c112f56824699fdab750172b12
+      internalID: -1809160552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_43
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 257
+        width: 4
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7942eabe61d844b950e9641c2f4c4d
+      internalID: 199361713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_44
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 258
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d9403b374246b4f9eb1622c1a63447
+      internalID: 1318590079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_45
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 209
+        width: 39
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c068c8b0a4443342a3f4b5b104aa426
+      internalID: -1287435070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_46
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 214
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c5a173987b02640b189134812c1858
+      internalID: 1012921822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_47
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 219
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543b5317749a2d44aaa0b714b40883a0
+      internalID: 712414367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_48
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 215
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ce0fe03aa75d142b9b8a87af239975
+      internalID: -858724554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_49
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 217
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5c49879a4e43b4f95327456eb4ab76
+      internalID: 838892116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_50
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 149
+        width: 21
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b523a39c732461f4baf5ebbc3b4ba6b7
+      internalID: 1044625524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_51
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 150
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fd208b9a83bc944877ae53d16dcd11
+      internalID: -1273766390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_52
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 151
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec7d64f34c4745647b885ca5d00cb5f9
+      internalID: -626979052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_53
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 128
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b235ecd25f848d24cb0727a3453a5a45
+      internalID: -834864126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_54
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 64
+        width: 86
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd504d027e2cfd347a907591cc45c2a0
+      internalID: 1909884267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_55
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 64
+        width: 89
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05df395bf906ce049827f2fb23437775
+      internalID: -129168656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_56
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 64
+        width: 79
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08469360f855e6442a14ddc212ececdd
+      internalID: -922126900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_57
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 108
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867a53508f874644098927c63172f455
+      internalID: -1206745101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_58
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 64
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82808f5206e761e488e4a88800009bb3
+      internalID: 1128043712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_59
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 8
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b894cc191c29b648afc755b82c05aa0
+      internalID: 1788717628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_60
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 59
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfd5a8d676367d479becd11b6e251bc
+      internalID: -1028046551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_61
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0
+        width: 46
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0572aaf02f9b6ff4f919a0211a5e40ec
+      internalID: -1826750080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_62
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 0
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818ad54438a8624488bab165f1ad6afd
+      internalID: 1738004884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_63
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 0
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce873e8bab029d418ea1cd93d8d0f3c
+      internalID: -284264327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_64
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fb8eabd48c437458fd419ae52fdd73
+      internalID: -2078653434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster5Pack_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 643
+        width: 42
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c376d6a4f86b5049b40c008251402ae
+      internalID: 1869713590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +1491,72 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Monster5Pack_0: 1869713590
+      Monster5Pack_1: -1743501201
+      Monster5Pack_10: 585159701
+      Monster5Pack_11: 518596101
+      Monster5Pack_12: 209098298
+      Monster5Pack_13: 21184191
+      Monster5Pack_14: -627669272
+      Monster5Pack_15: -1792046255
+      Monster5Pack_16: 1314736729
+      Monster5Pack_17: -573650117
+      Monster5Pack_18: 609308969
+      Monster5Pack_19: 1708683945
+      Monster5Pack_2: 174918111
+      Monster5Pack_20: -726503636
+      Monster5Pack_21: -24859468
+      Monster5Pack_22: -1380451213
+      Monster5Pack_23: -1325953443
+      Monster5Pack_24: -411476368
+      Monster5Pack_25: -1092376115
+      Monster5Pack_26: -1640580426
+      Monster5Pack_27: 620649524
+      Monster5Pack_28: -1994291344
+      Monster5Pack_29: 1289322480
+      Monster5Pack_3: -1360285498
+      Monster5Pack_30: -1343741704
+      Monster5Pack_31: 594906236
+      Monster5Pack_32: -1974673109
+      Monster5Pack_33: -1423809340
+      Monster5Pack_34: -1232953237
+      Monster5Pack_35: -1091038386
+      Monster5Pack_36: 245330451
+      Monster5Pack_37: 730181647
+      Monster5Pack_38: -2039655071
+      Monster5Pack_39: 974403953
+      Monster5Pack_4: -1393553133
+      Monster5Pack_40: -815034633
+      Monster5Pack_41: -723790265
+      Monster5Pack_42: -1809160552
+      Monster5Pack_43: 199361713
+      Monster5Pack_44: 1318590079
+      Monster5Pack_45: -1287435070
+      Monster5Pack_46: 1012921822
+      Monster5Pack_47: 712414367
+      Monster5Pack_48: -858724554
+      Monster5Pack_49: 838892116
+      Monster5Pack_5: -697924172
+      Monster5Pack_50: 1044625524
+      Monster5Pack_51: -1273766390
+      Monster5Pack_52: -626979052
+      Monster5Pack_53: -834864126
+      Monster5Pack_54: 1909884267
+      Monster5Pack_55: -129168656
+      Monster5Pack_56: -922126900
+      Monster5Pack_57: -1206745101
+      Monster5Pack_58: 1128043712
+      Monster5Pack_59: 1788717628
+      Monster5Pack_6: 1440515438
+      Monster5Pack_60: -1028046551
+      Monster5Pack_61: -1826750080
+      Monster5Pack_62: 1738004884
+      Monster5Pack_63: -284264327
+      Monster5Pack_64: -2078653434
+      Monster5Pack_7: -969125314
+      Monster5Pack_8: 1408629156
+      Monster5Pack_9: 1811721789
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
