@@ -5,21 +5,45 @@ using UnityEngine.SceneManagement;
 
 public class ControlVidaJugador : MonoBehaviour
 {
-    public int vidaActual, vidaMax;
+    public static ControlVidaJugador instance;
+
+    public int vidaActual;
+    private int vidaMax = 100;
+
+    private float tiempoInvencibilidad = 1f;
+    private float contadorInvencibilidad = 0;
 
     private Animator anim;
+    private SpriteRenderer sr;
+
+    [SerializeField] private AudioClip sonidoAcido;
+    [SerializeField] private AudioClip sonidoMuerte;
+    [SerializeField] private AudioClip sonidoDaño;
 
 
+
+    private void Awake()
+    {
+        instance = this;
+    }
     // Start is called before the first frame update
     void Start()
     {
-        vidaActual = vidaMax;
         anim = GetComponent<Animator>();
+        sr = GetComponent<SpriteRenderer>();
+        vidaActual = vidaMax;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (vidaActual > vidaMax)
+        {
+            vidaActual = vidaMax;
+        }
+
+        if(contadorInvencibilidad > 0)
+            contadorInvencibilidad -= Time.deltaTime; 
 
     }
 
@@ -27,21 +51,53 @@ public class ControlVidaJugador : MonoBehaviour
     {
         if (collision.gameObject.tag == "Lava")
         {
-            ManejadorDano();
+            ManejadorDano("Lava", 0);
+            ControladorSonidos.instance.EjecutarSonido(sonidoAcido);
         }
-        
+        else if(collision.gameObject.tag == "Enemigo")
+        {
+            ControladorSonidos.instance.EjecutarSonido(sonidoDaño);
+            ControlEnemigo enemigo = collision.gameObject.GetComponent<ControlEnemigo>();
+
+            ManejadorDano("Enemigo",enemigo.tipoEnemigo);
+        }   
     }
 
-    public void ManejadorDano()
+    public void ManejadorDano(string itag,int itipo)
     {
-        vidaActual -= vidaMax;
+        int vidaMenos = 0;
 
-        anim.SetTrigger("dano");
+        switch (itag)
+        {
+            case "Lava":
+                vidaMenos = 100;
+                break;
+            case "Enemigo":
+                if (itipo == 0)
+                    vidaMenos = 10;
+                else if (itipo == 1)
+                    vidaMenos = 20;
+                else
+                    vidaMenos = 80;
+                break;
+        }
 
-    }
+        if (contadorInvencibilidad <= 0)
+        {
+            vidaActual -= vidaMenos;
+            Vida.instance.RellenadorVida();
+            if (vidaActual > 0)
+            {
+                anim.SetTrigger("dano");
+                contadorInvencibilidad = tiempoInvencibilidad;
 
-    private void ReiniciarNivel()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+            else
+            {
+                ControladorSonidos.instance.EjecutarSonido(sonidoMuerte);
+                GameManager.instance.RespawnearJugador();
+                vidaActual = vidaMax;
+            }
+        } 
     }
 }

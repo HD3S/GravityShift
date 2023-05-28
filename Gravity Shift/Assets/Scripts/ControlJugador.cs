@@ -1,23 +1,31 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Data.SqlTypes;
 using UnityEngine;
 
 public class ControlJugador : MonoBehaviour
 {
-    public float velocidadMovimiento;
+    public static ControlJugador instance;
 
-    public Rigidbody2D rB;
+    public float velocidadMovimiento;
 
     public float potenciaSalto;
     public bool puedeSaltarDoble;
-
-    private Animator anim;
-    private SpriteRenderer sR;
 
     public bool estaEnSuelo;
     public Transform detectorSuelo;
     public LayerMask esSuelo;
 
+    public Animator anim;
+    public Rigidbody2D rB;
+    public SpriteRenderer sR;
+
+
+
+    private void Awake()
+    {
+        instance = this;
+    }
     // Start is called before the first frame update
     void Start()
     {

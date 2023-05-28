@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlataformaMovil : MonoBehaviour
@@ -13,7 +14,6 @@ public class PlataformaMovil : MonoBehaviour
     {
         transform.position = Pose[0].position;
     }
-
     // Update is called once per frame
     void Update()
     {
@@ -31,5 +31,19 @@ public class PlataformaMovil : MonoBehaviour
         }
 
         transform.position = Vector3.MoveTowards(transform.position, Pose[ID].position, speed*Time.deltaTime);
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.transform.SetParent(this.transform);
+        }
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            collision.transform.SetParent(null);
+        }
     }
 }
