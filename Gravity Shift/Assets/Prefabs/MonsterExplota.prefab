@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vida: 0
-  sonidoExplosion: {fileID: 0}
+  sonidoExplosion: {fileID: 8300000, guid: d77d5431bdef7884c92ddd8118826dd6, type: 3}
 --- !u!61 &3181439362249843528
 BoxCollider2D:
   m_ObjectHideFlags: 0
