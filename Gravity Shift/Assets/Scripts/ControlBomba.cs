@@ -8,12 +8,11 @@ public class ControlBomba : MonoBehaviour
 
     private Rigidbody2D rb;
     private Animator anim;
-    public LayerMask suelo;
 
     // Start is called before the first frame update
     void Start()
     {
-        fuerza = 0.25f;
+        fuerza = 0.75f;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
 
@@ -28,13 +27,12 @@ public class ControlBomba : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        int layer = collision.gameObject.layer;
-        Debug.Log(layer);
-        if(layer == 7)
+        if(collision.gameObject.CompareTag("Suelo"))
         {
             fuerza = 0;
+            rb.velocity = new Vector2(transform.position.x, 0);
             anim.SetTrigger("explosion");
-            //StartCoroutine(EliminarObjeto(2f));
+            StartCoroutine(EliminarObjeto(.95f));
         }
     }
 

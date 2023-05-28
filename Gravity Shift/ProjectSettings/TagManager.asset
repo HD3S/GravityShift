@@ -14,6 +14,7 @@ TagManager:
   - White
   - Monster
   - Bomba
+  - Suelo
   layers:
   - Default
   - TransparentFX
@@ -62,6 +63,9 @@ TagManager:
     locked: 0
   - name: Decorado Anterior
     uniqueID: 2423439165
+    locked: 0
+  - name: Enemigo
+    uniqueID: 2697001039
     locked: 0
   - name: Escenario
     uniqueID: 3004449227

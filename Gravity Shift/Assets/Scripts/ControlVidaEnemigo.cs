@@ -15,12 +15,14 @@ public class ControlVidaEnemigo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        vida = 100;
+        vida = 50;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (vida < 0)
+            ManejadorDano(0);
     }
 
     public void ManejadorDano(float dano)
