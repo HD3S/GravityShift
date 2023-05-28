@@ -60,9 +60,7 @@ public class ControlVidaJugador : MonoBehaviour
             ControlEnemigo enemigo = collision.gameObject.GetComponent<ControlEnemigo>();
 
             ManejadorDano("Enemigo",enemigo.tipoEnemigo);
-        }
-            
-        
+        }   
     }
 
     public void ManejadorDano(string itag,int itipo)
