@@ -6,7 +6,8 @@ using UnityEngine;
 public class HUD : MonoBehaviour
 {
     public GameManager gameManager;
-    public TextMeshProUGUI puntos; 
+    public TextMeshProUGUI puntos;
+    public TextMeshProUGUI numeroLlaves;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,5 +18,6 @@ public class HUD : MonoBehaviour
     void Update()
     {
         puntos.text = gameManager.PuntosTotales.ToString();
+        numeroLlaves.text = gameManager.LlavesTotales.ToString();
     }
 }

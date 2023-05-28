@@ -7,6 +7,9 @@ public class GameManager : MonoBehaviour
     public int PuntosTotales { get { return puntosTotales; } }
     private int puntosTotales;
 
+    public int LlavesTotales { get { return llavesTotales; } }
+    private int llavesTotales;
+
     public float tiempoParaRespawnear;
 
     public static GameManager instance;
@@ -19,6 +22,11 @@ public class GameManager : MonoBehaviour
     public void SumarPuntos(int puntosSumar)
     {
         puntosTotales += puntosSumar;
+    }
+
+    public void SumarLlave()
+    {
+        llavesTotales += 1;
     }
 
     public void RespawnearJugador()

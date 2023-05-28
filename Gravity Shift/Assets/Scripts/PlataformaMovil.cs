@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlataformaMovil : MonoBehaviour
@@ -13,7 +14,6 @@ public class PlataformaMovil : MonoBehaviour
     {
         transform.position = Pose[0].position;
     }
-
     // Update is called once per frame
     void Update()
     {
