@@ -51,19 +51,18 @@ public class ControlVidaJugador : MonoBehaviour
     {
         if (collision.gameObject.tag == "Lava")
         {
-            ManejadorDano("Lava", 0);
+            ManejadorDano("Lava");
             ControladorSonidos.instance.EjecutarSonido(sonidoAcido);
         }
-        else if(collision.gameObject.tag == "Enemigo")
+        else if(collision.gameObject.tag == "Enemigo" || collision.gameObject.tag == "Monster" 
+            || collision.gameObject.tag == "Bombardero" || collision.gameObject.tag == "Bomba")
         {
             ControladorSonidos.instance.EjecutarSonido(sonidoDaño);
-            ControlEnemigo enemigo = collision.gameObject.GetComponent<ControlEnemigo>();
-
-            ManejadorDano("Enemigo",enemigo.tipoEnemigo);
+            ManejadorDano(collision.gameObject.tag);
         }   
     }
 
-    public void ManejadorDano(string itag,int itipo)
+    public void ManejadorDano(string itag)
     {
         int vidaMenos = 0;
 
@@ -73,12 +72,17 @@ public class ControlVidaJugador : MonoBehaviour
                 vidaMenos = 100;
                 break;
             case "Enemigo":
-                if (itipo == 0)
-                    vidaMenos = 10;
-                else if (itipo == 1)
-                    vidaMenos = 20;
-                else
-                    vidaMenos = 80;
+                vidaMenos = 10;
+                break;
+            case "Monster":
+                vidaMenos = 80;
+                break;
+            case "Bombardero":
+                vidaMenos = 20;
+                break;
+            case "Bomba":
+                ControladorSonidos.instance.EjecutarSonido(sonidoDaño);
+                vidaMenos = 40;
                 break;
         }
 

@@ -121,7 +121,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a33e45af8a55374d9955afeab5d6074, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sonidoExplosion: {fileID: 8300000, guid: d77d5431bdef7884c92ddd8118826dd6, type: 3}
 --- !u!70 &3502699136598485636
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

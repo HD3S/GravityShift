@@ -34,6 +34,10 @@ public class ControlBomba : MonoBehaviour
             anim.SetTrigger("explosion");
             StartCoroutine(EliminarObjeto(.95f));
         }
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            ControlVidaJugador.instance.ManejadorDano("Bomba");
+        }
     }
 
     IEnumerator EliminarObjeto(float itiempo)

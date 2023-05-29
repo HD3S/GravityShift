@@ -2,62 +2,51 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ControlVidaMonster : MonoBehaviour
+public class ControlVidaBombardero : MonoBehaviour
 {
-    public static ControlVidaMonster instance;
 
-    private int contadorGolpes = 0;//para que solo explote una vez
+    public float vida;
 
     private Animator anim;
     private Rigidbody2D rb;
 
-    ControlEnemigo enemigo;
+    ControlBombardero bombardero;
 
     [SerializeField] private AudioClip sonidoExplosion;
 
-    private void Awake()
-    {
-        instance = this;
-    }
     // Start is called before the first frame update
     void Start()
     {
+        vida = 20;
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        enemigo = this.GetComponent<ControlEnemigo>();
+        bombardero = this.GetComponent<ControlBombardero>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        
     }
 
     public void ManejadorDano(float dano)
-    {  
-        if (contadorGolpes == 0)
+    {
+        if (vida > 0)
+        {
+            vida -= dano;
+        }
+        else
         {
             Explosion();
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            if (contadorGolpes == 0)
-            {
-                Explosion();
-            }
-        }
-    }
-
     private void Explosion()
     {
-        contadorGolpes++;
-        enemigo.velocidadMovimiento = 0;
-        StartCoroutine(IniciarExplosion(0.8f));//Llama al sonido explosion
+        bombardero.velocidadMovimiento = 0;
+        StartCoroutine(IniciarExplosion(.05f));//Llama al sonido explosion
         anim.SetTrigger("explosion");
-        StartCoroutine(Eliminarobjeto(2.5f));
+        StartCoroutine(Eliminarobjeto(1f));
     }
 
     IEnumerator Eliminarobjeto(float itiempo)
@@ -72,4 +61,3 @@ public class ControlVidaMonster : MonoBehaviour
         ControladorSonidos.instance.EjecutarSonido(sonidoExplosion);//Efecto de sonido explosion
     }
 }
-

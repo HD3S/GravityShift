@@ -10,7 +10,6 @@ public class DisparoIkari : MonoBehaviour
 
     [SerializeField] private AudioClip sonidoLaserGun;
 
-    private float tiempo;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,26 +19,25 @@ public class DisparoIkari : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //tiempo += Time.deltaTime;
-
         if (Input.GetKeyDown(KeyCode.P))
         {
             Disparo();
-            ControladorSonidos.instance.EjecutarSonido(sonidoLaserGun);
         }
     }
 
     private void Disparo()
     {
-        if (Mathf.Abs(ControlJugador.instance.rB.velocity.x) > 0)
+        if (Mathf.Abs(ControlJugador.instance.rB.velocity.x) >= 1)
         {
             anim.SetTrigger("disparoMov");
         }
         else
         {
-            anim.SetTrigger("disparo");
+            anim.SetTrigger("disparoSinMov");
         }
-        
-        Instantiate(balaIkari,posicionDisparo.position, Quaternion.identity);
+
+        ControladorSonidos.instance.EjecutarSonido(sonidoLaserGun);
+        Instantiate(balaIkari, posicionDisparo.position, Quaternion.identity);
     }
+
 }
