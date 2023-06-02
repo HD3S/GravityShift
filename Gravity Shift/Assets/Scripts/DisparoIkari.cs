@@ -27,7 +27,7 @@ public class DisparoIkari : MonoBehaviour
 
     private void Disparo()
     {
-        if (Mathf.Abs(ControlJugador.instance.rB.velocity.x) >= 1)
+        if (Mathf.Abs(ControlJugador.instance.rB.velocity.x) > .9)
         {
             anim.SetTrigger("disparoMov");
         }
