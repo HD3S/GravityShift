@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nave.unity
     guid: b7fa6c7a1b952a949a0c991093ffb548
+  - enabled: 1
+    path: Assets/Scenes/Final.unity
+    guid: e4335bd36f8c4864ea72692d77440ce5
   m_configObjects: {}

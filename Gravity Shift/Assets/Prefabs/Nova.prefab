@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3828917677602516785}
   - component: {fileID: 3828917677602516786}
   - component: {fileID: 3828917677602516787}
+  - component: {fileID: 8809950704161193455}
   m_Layer: 0
   m_Name: Nova
   m_TagString: Untagged
@@ -106,3 +107,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8809950704161193455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3828917677602516788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 402e70458f00b5d438bf77c37f680a17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sonidoVictoria: {fileID: 8300000, guid: 4a9b817b051eebb4f98016354e8b460d, type: 3}
+  musicaInGame: {fileID: 0}
