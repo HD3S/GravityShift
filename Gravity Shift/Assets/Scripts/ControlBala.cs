@@ -40,7 +40,8 @@ public class ControlBala : MonoBehaviour
             && collision.gameObject.tag != "Green" 
             && collision.gameObject.tag != "Blue" 
             && collision.gameObject.tag != "Red"
-            && collision.gameObject.tag != "White")
+            && collision.gameObject.tag != "White"
+            && collision.gameObject.tag != "Coleccionable")
         {
             anim.SetTrigger("colision");
             rb.velocity = new Vector2(0, rb.velocity.y);
@@ -53,6 +54,10 @@ public class ControlBala : MonoBehaviour
             {
                 ControlVidaMonster monster = collision.GetComponent<ControlVidaMonster>();
                 monster.ManejadorDano(10);
+            }else if(collision.gameObject.tag == "Bombardero")
+            {
+                ControlVidaBombardero bombardero = collision.GetComponent<ControlVidaBombardero>();
+                bombardero.ManejadorDano(10);
             }
 
             StartCoroutine(EliminarObjeto(0.2f));

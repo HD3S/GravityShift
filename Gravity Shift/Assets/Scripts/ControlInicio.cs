@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 public class ControlInicio : MonoBehaviour
 {
 
-    public AudioClip sfxButton;
+    public AudioClip sonidoStart;
 
-    private bool oneshotSfx;
+    private bool yaPulsado;
 
     // Update is called once per frame
     void Update()
@@ -16,11 +16,11 @@ public class ControlInicio : MonoBehaviour
         //Si se presiona enter se carga la escena principal
         if (Input.GetButtonDown("Submit"))
         {
-            if (!oneshotSfx)
+            if (!yaPulsado)
             {
-                AudioSource.PlayClipAtPoint(sfxButton, Vector3.zero);
-                Invoke("CargarEscena", 0.5f);
-                oneshotSfx = true;
+                AudioSource.PlayClipAtPoint(sonidoStart, Vector3.zero);
+                Invoke("CargarEscena", 0.25f);
+                yaPulsado= true;
             }
 
 

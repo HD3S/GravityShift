@@ -15,6 +15,7 @@ TagManager:
   - Monster
   - Bomba
   - Suelo
+  - Bombardero
   layers:
   - Default
   - TransparentFX
